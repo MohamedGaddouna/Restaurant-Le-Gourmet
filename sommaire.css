@@ -1,0 +1,35 @@
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #055c9d;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 500px;
+    max-height: fit-content;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #68bbe3;
+    text-decoration: underline;
+}
+
+/* Media queries spécifiques au sommaire */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}

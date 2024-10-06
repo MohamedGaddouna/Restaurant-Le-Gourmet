@@ -1,0 +1,111 @@
+/* Typographie de base et mise en forme globale */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfaf6;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #003060;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #055c9d;
+    border-radius: 10px;
+
+    margin: 20px auto;
+    max-width: 500px;
+    max-height: fit-content;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color:#68bbe3;
+    text-decoration: underline;
+}
+
+/* Sections communes */
+section {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Images */
+section img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+
+
+/* Liens */
+footer {
+    background-color: #003060;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color:#68bbe3;
+    text-decoration: underline;
+}
+
+/* Media queries pour adaptabilité */
+@media (max-width: 768px) {
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+@media print {
+    header, footer, nav {
+        display: none;
+    }
+
+    section {
+        width: 100%;
+    }
+}
