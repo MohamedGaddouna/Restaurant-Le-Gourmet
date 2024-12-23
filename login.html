@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Register Form</title>
+    <link rel="stylesheet" href="./css/forum.css">
+    <meta name="viewport">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h2>Login</h2>
+            <form action="" id="loginForm">
+                <div>
+                    <label for="emailLogin">Email:</label>
+                    <input type="text" id="emailLogin" name="email" placeholder="Enter your email" class="inputField"
+                        required>
+                </div>
+                <div>
+                    <label for="passwordLogin">Password:</label>
+                    <input type="text" id="passwordLogin" name="password" placeholder="Enter your password"
+                        class="inputField" required>
+                </div>
+                <span id="error" style="display: none;"> </span>
+                <div class="wrap">
+                    <button type="submit">Login</button>
+                </div>
+                <a href="register.html">Register</a>
+            </form>
+        </div>
+        <script src="./js/login.js"></script>
+    </main>
+</body>
+</html>

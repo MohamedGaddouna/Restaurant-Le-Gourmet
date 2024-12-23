@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/*style.css*/
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: #9bbdd7;
+    flex-direction: column;
+    margin: 0;
+    background-image: url("https://files.oaiusercontent.com/file-rPvIg2rPjTmtJx6iV3NGN4il?se=2024-10-23T19%3A16%3A03Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df2b8e4d2-b3fc-41df-9242-d6a63948cc40.webp&sig=nPARQy4DvC7RsyAJKyhxOAHSjc2J/36ohd5QyqgzPdE%3D");
+    background-repeat: no-repeat;
+    background-size: cover;         
+    background-position: center;   
+}
+
+h2 {
+    color: #308acf;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+}
+
+.container label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+.container button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #308acf;
+    width: 100%;
+    font-size: 16px;
+}
+
+.container span {
+    color: #ff4d4f;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 5px;
+    display: block;
+}
+
+.inputField {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.inputField.success {
+    border-color: #4CAF50;
+}
+
+.inputField.error {
+    border-color: #ff4d4f;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Register Form</title>
+    <link rel="stylesheet" href="./css/forum.css">
+    <meta name="viewport">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h2>Register</h2>
+            <form action="" id="registerForm">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" class="inputField">
+                    <span id="valdNameIcon" style="display: none;">✔️</span>
+                    <span id="errorNameIcon" style="display: none;">❌</span>
+                    <span id="nameError" style="display: none;"></span>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your email" class="inputField">
+                    <span id="valdEmailIcon" style="display: none;">✔️</span>
+                    <span id="errorEmailIcon" style="display: none;">❌</span>
+                    <span id="emailError" style="display: none;"> </span>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="text" id="password" name="password" placeholder="Enter your password"
+                        class="inputField">
+                    <span id="valdPasswordIcon" style="display: none;">✔️</span>
+                    <span id="errorPasswordIcon" style="display: none;">❌</span>
+                    <span id="passwordError" style="display: none;"></span>
+                </div>
+                <div class="wrap">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+        <script src="./js/register.js"></script>
+    </main>
+</body>
+</html>
